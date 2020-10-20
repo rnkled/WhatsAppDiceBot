@@ -18,6 +18,3 @@ def roll(nmsg):
         return f"[BOT] Resultado de {inicial}: {soma} // {rolls}"
     except:
         return "Erro no Comando! faça corretamente. Exemplos: /roll 3d6, /r 2d10, /role 5d10 "
-
-
-print(roll("/roll 3d6"))
