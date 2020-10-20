@@ -5,7 +5,8 @@ from roll import roll
 
 
 def envia_msg(msg):
-    """ Envia uma mensagem para a conversa aberta """
+    #Sends a Message on an Open chat.
+    #Envia uma mensagem para a conversa aberta
     try:
 
         # Finds the Text Box
@@ -31,7 +32,8 @@ def envia_msg(msg):
 
 
 def ultima_msg():
-    """ Captura a ultima mensagem da conversa """
+    # Catchs the Last message on the chat. 
+    # Captura a ultima mensagem da conversa.
     try:
         post = driver.find_elements_by_class_name("_274yw")
         ultimo = len(post) - 1
