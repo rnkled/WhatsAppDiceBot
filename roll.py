@@ -15,6 +15,8 @@ def roll(nmsg):
                 rolls.append(r)
                 soma += r
             inicial = msg[msg.find(" "):].strip()
+        # retunr f"[BOT] Result of {inicial}: {soma} // {rolls}"
         return f"[BOT] Resultado de {inicial}: {soma} // {rolls}"
     except:
+        # return "Command Error! Try Again. Roll Examples: /roll 3d6, /r 2d10, /role 5d10"
         return "Erro no Comando! faça corretamente. Exemplos: /roll 3d6, /r 2d10, /role 5d10 "
