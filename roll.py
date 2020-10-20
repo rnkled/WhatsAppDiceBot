@@ -3,6 +3,7 @@ import random
 
 
 def roll(nmsg):
+    #Dismember Message and Roll the dices
     try:
         msg = nmsg.strip().lower()
         if msg[0] == "/":
